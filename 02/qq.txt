@@ -1,0 +1,36 @@
+Kyle Moon
+APCS2 pd10
+HW02 -- Exploration
+2016-02-23
+
+N-Queens
+
+a) 2x2
+Not possible. At this size, a single queen can cover every square.
+
+b)3x3
+Also not possible. Placing each queen on a different row and column would still allow a diagonal capture.
+
+c)4x4
+Two solutions. Does not work if a queen is placed in a corner.
+First implementation of a key strategy: the knight-shape.
+By placing a queen any one square from the edge, then placing queens in an L-shape.
+
+d)5x5
+Definately possible.
+Can be solved by placing a queen in the corner, then connecting the remaining queens via L-shape.
+
+e)6x6
+Also possible. 
+One solution involves (on a board of a-f and 1-6):
+a2,b4,c6,d1,e3,f5
+
+f)7x7
+Possible as well.
+A little tricky, after a couple of tries:
+a2,b5,c3,d1,e7,f4,g6
+
+g)8x8
+I know is possible.
+The most least intuitive of the 8.
+a4,b6,c3,d5,e2,f8,g1,h7
