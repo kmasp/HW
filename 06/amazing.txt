@@ -1,0 +1,11 @@
+Kyle Moon
+APCS2 pd2
+HW06 -- A Maiz
+2016-02-29
+
+Maze Solving algorithm
+
+Trys each of the hero's directions.
+If it is a wall, or they have been there before, than that place is off limits.
+Choose a direction that is available.
+If it is a deadend, end the recursive call with a false and backtrack.
