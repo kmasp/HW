@@ -1,3 +1,11 @@
+/*
+  Kyle Moon
+  APCS2 pd10
+  HW17 -- Iterator
+  2016-03-22
+*/
+
+
 /*****************************************************
  * class ItrWork -- skeleton
  * Allows for familiarization with iterators
