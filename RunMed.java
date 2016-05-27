@@ -1,3 +1,10 @@
+/**
+ * Kyle Moon
+ * APCS2 pd10
+ * HW46 Running M[edi]an
+ * 2016-05-27
+ **/
+
 /*****************************************************
  * class RunMed
  * Implements an online algorithm to track the median of a growing dataset
